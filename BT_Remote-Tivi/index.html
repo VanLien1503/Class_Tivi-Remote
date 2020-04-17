@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập Mô Phỏng tính năng hoạt động của Remote và tivi</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="tivi">
+    <table>
+        <tr style="height: 15px">
+            <td><p id="amTV">vol:20</p></td>
+            <td><p id="kenh">Kenh: 5</p></td>
+            <td><button onclick="kenhTang()">Kênh +</button></td>
+        </tr>
+        <tr>
+            <td  colspan="2"rowspan="4" style="width:500px;height: 250px" id="manTV">Màn Hình TV</td>
+            <td><button onclick="kenhGiam()">Kênh - </button></td>
+        </tr>
+        <tr>
+            <td><button onclick="amTang()">Âm +</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="amGiam()">Âm - </button></td>
+        </tr>
+        <tr>
+            <td><button onclick="onOffTivi()">On/Off</button></td>
+        </tr>
+    </table>
+</div>
+<div class="remote">
+    <table>
+        <tr>
+            <td> <button onclick="remoteKenhTang()">Kênh(+)</button></td>
+            <td><button onclick="remoteAmTang()">Am(+)</button></td>
+            <td rowspan="2"><button onclick="onOffRemote()">On <br> Off</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="remoteKenhGiam()">Kênh(-)</button></td>
+            <td><button onclick="remoteAmGiam()">Âm(-)</button></td>
+        </tr>
+        <tr>
+            <td>
+                <button id="k1" value="1" >01</button>
+            </td>
+            <td>
+                <button id="k2" value="2" >02</button>
+            </td>
+            <td>
+                <button id="k3"value="3" >03</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="k4"value="4" >04</button>
+            </td>
+            <td>
+                <button id="k5"value="5" >05</button>
+            </td>
+            <td>
+                <button id="k6"value="6" >06</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="k7"value="7" >07</button>
+            </td>
+            <td>
+                <button id="k8"value="8" >08</button>
+            </td>
+            <td>
+                <button id="k9"value="9" >09</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

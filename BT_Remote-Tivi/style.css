@@ -1,0 +1,19 @@
+td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.18);
+}
+.tivi{
+    margin-left: 200px;
+}
+.remote{
+    margin-left:400px;
+    margin-top: 70px;
+}
+#manTV{
+    background-color: black;
+}
